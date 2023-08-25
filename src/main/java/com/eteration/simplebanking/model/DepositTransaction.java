@@ -1,6 +1,8 @@
 package com.eteration.simplebanking.model;
 
+public class DepositTransaction extends Transaction {
+    public DepositTransaction(double amount) {
+        super(amount);
+    }
 
-// This class is a place holder you can change the complete implementation
-public class DepositTransaction  {
 }

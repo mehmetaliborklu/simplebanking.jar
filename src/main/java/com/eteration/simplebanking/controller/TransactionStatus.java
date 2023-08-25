@@ -1,8 +1,27 @@
 package com.eteration.simplebanking.controller;
 
+public class TransactionStatus <T>{
+    private String status;
+    private T body;
 
-// This class is a place holder you can change the complete implementation
+    public TransactionStatus(String status, T body) {
+        this.status = status;
+        this.body = body;
+    }
 
-public class TransactionStatus {
+    public String getStatus() {
+        return status;
+    }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public T getBody() {
+        return body;
+    }
+
+    public void setBody(T body) {
+        this.body = body;
+    }
 }

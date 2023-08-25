@@ -1,7 +1,16 @@
 package com.eteration.simplebanking.services;
 
 
-// This class is a place holder you can change the complete implementation
+import com.eteration.simplebanking.model.Account;
+
 public class AccountService {
+
+    public Account findAccount(String accountNumber) {
+        if (accountNumber.equals("17892")) {
+            return new Account("Jim", "17892");
+        } else {
+            return null;
+        }
+    }
 
 }

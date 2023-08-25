@@ -1,8 +1,9 @@
 package com.eteration.simplebanking.model;
+public class WithdrawalTransaction extends Transaction {
 
-
-// This class is a place holder you can change the complete implementation
-public class WithdrawalTransaction {
+    public WithdrawalTransaction(double amount) {
+        super(amount);
+    }
 }
 
 
